@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),rgba(4,9,30,0.7)) , url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 25px;
+}
+.logo{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+  
+}
+
+.main ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 40px;
+    margin-right: 60px;
+    font: size 20px ;
+}
+ul li{
+    display:inline-block
+
+}
+ul li a{
+    text-decoration:none;
+    color: #c3c145;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: rgb(187, 108, 79);
+    color:black;
+
+}
+.ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(137, 156, 217);
+    font-size:15px;
+}
+.title h1{
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title a{
+    font-size: 18px;
+    color: #fff;
+  
+}
